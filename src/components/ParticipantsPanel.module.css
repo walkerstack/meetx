@@ -1,0 +1,140 @@
+.panel {
+  flex: 1;
+  overflow-y: auto;
+  padding: 12px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  transition: var(--transition-fast);
+  cursor: default;
+}
+
+.item:hover {
+  background: var(--bg-glass-hover);
+  border-color: var(--border-subtle);
+}
+
+.item:hover .moreBtn { opacity: 1; }
+
+.avatarWrap {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--c, var(--accent-primary)), color-mix(in srgb, var(--c, var(--accent-primary)) 70%, #000));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.speakingDot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent-emerald);
+  border: 2px solid var(--bg-deep);
+  box-shadow: 0 0 6px var(--accent-emerald);
+}
+
+.info {
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.hostBadge {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--accent-amber);
+  background: rgba(245,158,11,0.1);
+  border: 1px solid rgba(245,158,11,0.2);
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+}
+
+.speakingLabel {
+  margin-top: 2px;
+}
+
+.wave {
+  font-size: 11px;
+  color: var(--accent-emerald);
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.icon {
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  background: var(--bg-glass);
+}
+
+.iconOff {
+  color: var(--accent-rose);
+  background: rgba(244,63,94,0.08);
+}
+
+.moreBtn {
+  width: 26px;
+  height: 26px;
+  border-radius: var(--radius-xs);
+  background: transparent;
+  color: var(--text-muted);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: var(--transition-fast);
+}
+
+.moreBtn:hover {
+  background: var(--bg-elevated);
+  color: var(--text-primary);
+  opacity: 1 !important;
+}
