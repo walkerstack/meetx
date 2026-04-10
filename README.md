@@ -130,4 +130,4 @@ To connect to a real backend with Socket.IO + WebRTC signaling:
 
 ## 📄 License
 
-MIT License — free to use and modify.
+MIT License — free to use and   modify.
