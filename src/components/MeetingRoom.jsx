@@ -38,6 +38,15 @@ export default function MeetingRoom({ meeting, onLeave }) {
   const toast = useToast()
   const { socket } = useSocket({ enabled: true })
 
+  useEffect(() => {
+  if (!socket) return
+  socket.emit('join-room', {
+    roomId: meeting.meetingId,
+    userId: socket.id,
+    name: meeting.name || 'Guest',
+  })
+}, [socket])
+
   // Sync participants list from socket events
   useEffect(() => {
     if (!socket) return
