@@ -1,5 +1,5 @@
 /**
- * MeetX Backend Server
+ * StreamXYZ Backend Server
  * Express + Socket.IO — WebRTC signaling server
  *
  * Install:  cd server && npm install
