@@ -6,9 +6,9 @@ import {
 } from 'lucide-react'
 
 const RECENT_MEETINGS = [
-  { id: 'MXT-8F2K-9P1L', name: 'Design Sprint Review', time: '2h ago', participants: 6 },
-  { id: 'MXT-3J7Q-2N8R', name: 'Engineering Standup', time: 'Yesterday', participants: 8 },
-  { id: 'MXT-5A1B-7C4D', name: 'Product Roadmap Q2', time: '2 days ago', participants: 12 },
+  { id: 'MXT-7F2K-9P1L', name: 'Design Sprint Review', time: '2h ago', participants: 6 },
+  { id: 'MXT-2J7Q-2N8R', name: 'Engineering Standup', time: 'Yesterday', participants: 8 },
+  { id: 'MXT-1A1B-7C4D', name: 'Product Roadmap Q2', time: '2 days ago', participants: 12 },
 ]
 
 function generateMeetingId() {
@@ -141,7 +141,7 @@ export default function Lobby({ onJoin }) {
             <div className={styles.logoIcon}>
               <Video size={20} strokeWidth={2.5} color="#fff" />
             </div>
-            <span className={styles.logoText}>Meet<span>X</span></span>
+            <span className={styles.logoText}>Meet<span>YZ</span></span>
             <span className={styles.logoBadge}>v2.0</span>
           </div>
 

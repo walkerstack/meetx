@@ -1,7 +1,7 @@
 {
-  "name": "meetx-server",
+  "name": "meetYZ-server",
   "version": "1.0.0",
-  "description": "MeetX WebRTC signaling server",
+  "description": "MeetYZ WebRTC signaling server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

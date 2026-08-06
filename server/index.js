@@ -186,6 +186,6 @@ function rand4() {
 // ── Start ─────────────────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000
 server.listen(PORT, () => {
-  console.log(`\n🚀 MeetX Server running on http://localhost:${PORT}`)
+  console.log(`\n🚀 MeetYZ Server running on http://localhost:${PORT}`)
   console.log(`   Health: http://localhost:${PORT}/health\n`)
 })
