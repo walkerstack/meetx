@@ -1,7 +1,7 @@
 {
   "name": "streamXYZ-server",
   "version": "1.0.0",
-  "description": "StreamXYZ WebRTC signaling server",
+  "description": "StreamXY WebRTC signaling server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

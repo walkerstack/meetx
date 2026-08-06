@@ -141,7 +141,7 @@ export default function Lobby({ onJoin }) {
             <div className={styles.logoIcon}>
               <Video size={20} strokeWidth={2.5} color="#fff" />
             </div>
-            <span className={styles.logoText}>Stream<span>XYZ</span></span>
+            <span className={styles.logoText}>Stream<span>XY</span></span>
             <span className={styles.logoBadge}>v2.0</span>
           </div>
 

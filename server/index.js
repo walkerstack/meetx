@@ -1,5 +1,5 @@
 /**
- * StreamXYZ Backend Server
+ * StreamXY Backend Server
  * Express + Socket.IO — WebRTC signaling server
  *
  * Install:  cd server && npm install
