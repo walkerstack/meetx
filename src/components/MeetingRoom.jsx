@@ -246,7 +246,7 @@ export default function MeetingRoom({ meeting, onLeave }) {
       {/* TOP BAR */}
       <header className={styles.topBar}>
         <div className={styles.topLeft}>
-          <div className={styles.logoMini}><Video size={14} color="#fff" /><span>MeetX</span></div>
+          <div className={styles.logoMini}><Video size={14} color="#fff" /><span>StreamYZ</span></div>
           <div className={styles.meetingInfo}>
             <span className={styles.meetingId}>{meeting.meetingId}</span>
             <span className={styles.separator}>·</span>
